@@ -6,13 +6,13 @@ PubNub takes care of the infrastructure and APIs needed for the realtime communi
 
 ## Get keys
 
-You will need the publish and subscribe keys to authenticate your app. Get your keys from the [Admin Portal](https://dashboard.pubnub.com/login).
+You will need publish and subscribe keys to authenticate your app. Get your keys from the [Admin Portal](https://dashboard.pubnub.com/login).
 
-## Setup the project
+## Set up the project
 
 1. Clone this repository.
    
-2. Open the `index.html`  and configure your keys:
+2. Open `index.html` and replace the placeholders with your keys:
    
     ```javascript 
     const pubnub = new PubNub({
@@ -31,18 +31,15 @@ This is a single-file application and you do not need to add any additional file
 
 1. Open the `index.html` file in a browser.
 
-    You should see the following:
-
-    "A message was published on page load and some other messages/events were displayed."
+    A message will be published on page load, and some other messages/events will also display.
 
 2. In the Earth field, enter some text and click Submit Update to the Guide to publish your update.
 
     You should see the new update displayed at the top of the current messages below the Earth field. Also, the field is cleared for you to enter something new.
 
-
 ## Documentation
 
-* [Build your first realtime JS app with PubNub](https://www.pubnub.com/docs/platform/quickstarts/javascript)
+* [Build your first realtime JavaScript app with PubNub](https://www.pubnub.com/docs/platform/quickstarts/javascript)
 * [API reference for JavaScript (web)](https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk)
 * [API reference for JavaScript (Node.js)](https://www.pubnub.com/docs/nodejs-javascript/pubnub-javascript-sdk)
 
